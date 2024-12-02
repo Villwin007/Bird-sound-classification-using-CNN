@@ -63,12 +63,6 @@ This project implements a Convolutional Neural Network (CNN) for automatic bird 
 - Habitat health assessment
 - Conservation research
 
-## Dependencies
-- TensorFlow
-- NumPy
-- Librosa
-- Scikit-learn
-
 ## Installation
 
 ### Prerequisites
