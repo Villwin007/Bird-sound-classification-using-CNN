@@ -3,17 +3,33 @@
 ## Overview
 This project implements a Convolutional Neural Network (CNN) for automatic bird species classification using audio recordings. By converting bird sounds into spectrograms and applying deep learning techniques, we've developed a robust model for ecological monitoring and wildlife conservation.
 
-## Key Features
-- Advanced bird species identification using deep learning
-- Spectrogram-based audio classification
-- Data augmentation for improved model robustness
-- Automated ecological monitoring solution
+## Features
+
+### Data Collection
+- Dataset: 2161 audio files
+- 114 distinct bird species
+- Sourced from Kaggle: [Bird Sound Dataset](https://www.kaggle.com/datasets/soumendraprasad/sound-of-114-species-of-birds-till-2022)
+
+### Deployment
+- Streamlit web interface
+- Support for MP3 and WAV uploads
+- Real-time bird species classification
 
 ## Project Objectives
 - Develop a CNN-based classification model using TensorFlow
 - Improve bird species identification accuracy in noisy conditions
 - Create an automated solution for ecological monitoring
 - Support conservation activities through technology
+
+## Key Technologies
+- Python
+- TensorFlow
+- Convolutional Neural Network (CNN)
+- Keras
+- Streamlit
+- Librosa
+- OpenCV
+- NumPy
 
 ## Methodology
 ### Data Preprocessing
@@ -53,11 +69,47 @@ This project implements a Convolutional Neural Network (CNN) for automatic bird 
 - Librosa
 - Scikit-learn
 
-## Getting Started
+## Installation
+
+### Prerequisites
+```bash
+pip install tensorflow
+pip install scikit-learn
+pip install opencv-python
+pip install librosa
+pip install numpy
+pip install pandas
+pip install streamlit
+pip install streamlit_extras
+```
+
+## Usage
+
 1. Clone the repository
-2. Install required dependencies
-3. Prepare your bird sound dataset
-4. Run the Jupyter notebook or Python script
+```bash
+git clone https://github.com/your-repo/Bird-Sound-Classification.git
+```
+
+2. Install requirements
+```bash
+pip install -r requirements.txt
+```
+
+3. Run Streamlit Application
+```bash
+streamlit run main.py
+```
+
+4. Access the app at `http://localhost:8501`
+
+
+## License
+This project is licensed under the MIT License. Please review the LICENSE file for more details.
+
+## Contact
+- Email: villwin11@gmail.com
+- LinkedIn: [**Dhanush Saravanan**](https://www.linkedin.com/in/dhanush-saravanan-148857268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+ 
 
 ## Future Work
 - Expand dataset with more bird species
