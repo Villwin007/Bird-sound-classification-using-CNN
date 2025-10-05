@@ -98,7 +98,7 @@ streamlit run main.py
 
 
 ## License
-This project is licensed under the MIT License. Please review the LICENSE file for more details.
+This project is licensed under the [**MIT License**](https://github.com/Villwin007/Bird-sound-classification-using-CNN/blob/master/LICENSE). Please review the LICENSE file for more details.
 
 ## Contact
 - Email: villwin11@gmail.com
